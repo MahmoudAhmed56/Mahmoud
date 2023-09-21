@@ -1,7 +1,7 @@
 /* start header */
 header {
   background-color: var(--black-color);
-  z-index: 100;
+  z-index: 1000;
   position: sticky !important;
   top: 0;
 }
