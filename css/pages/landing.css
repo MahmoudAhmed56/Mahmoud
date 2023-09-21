@@ -1,0 +1,768 @@
+/* start landing */
+/* .landing{
+  max-width: 100%;
+} */
+:root {
+  --first-color: #c29032;
+  --second-color: #262626;
+  --third-color: #212121;
+  --fourth-color: #7a7a7a;
+  --black-color: #000;
+  --white-color: #fff;
+}
+.landing .parent {
+  color: white;
+  position: relative;
+  z-index: 21;
+}
+.landing .parent .text-content p {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.landing .parent .text-content h1 {
+  font-size: 90px;
+  font-weight: 500;
+  color: var(--first-color);
+  margin: 0;
+}
+.landing .parent .text-content h1 .one {
+  font-family: "alternate-gothic-no2-d";
+  font-size: inherit;
+  font-weight: 500;
+  background-image: linear-gradient(
+    -225deg,
+    var(--first-color) 0%,
+    var(--black-color) 29%,
+    var(--first-color) 67%,
+    var(--first-color) 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.landing .parent .text-content .img-cont {
+  width: 200px;
+  margin: auto;
+}
+.landing .parent .text-content {
+  text-align: center;
+}
+.landing .parent .text-content .btn {
+  padding: 0;
+  border: 1px solid var(--first-color);
+  border-radius: 0;
+  margin-top: 30px;
+}
+.landing .parent .text-content .btn span {
+  display: inline-block;
+  background-color: var(--first-color);
+  font-size: 16px;
+  color: var(--black-color);
+  text-transform: uppercase;
+  padding: 9px 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  transition: all 0.3s;
+  margin: 3px;
+}
+.landing .parent .text-content .btn span:hover {
+  color: var(--white-color);
+  background-color: var(--black-color);
+}
+.landing .bottom {
+  position: absolute;
+  bottom: 0;
+  z-index: 22;
+}
+.landing .img1 {
+  background-image: url(../../img/slide01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
+.landing .img2 {
+  background-image: url(../../img/slide02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
+.landing {
+  overflow: hidden;
+}
+.landing .carousel-control-next {
+  justify-content: flex-end;
+  width: 50px;
+  right: 0px;
+  opacity: 1;
+
+}
+.landing .next {
+  position: relative;
+  color: var(--white-color);
+  background-color: #1e1e1e;
+  transition: all 0.3s;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.landing .next:hover {
+  background-color: var(--first-color);
+}
+
+.landing .next i.one {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  opacity: 0.5;
+}
+.landing .next:hover i.one {
+  left: 100%;
+  transform: translate(0%, -50%);
+  opacity: 0;
+}
+.landing .next i.tow {
+  position: absolute;
+  left: -55%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+}
+.landing .next:hover i.tow {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*  */
+.landing .carousel-control-prev {
+  justify-content: flex-end;
+  width: 50px;
+  left: 0px;
+  opacity: 1;
+
+}
+
+.landing .prev {
+  position: relative;
+  color: var(--white-color);
+  background-color: #1e1e1e;
+  transition: all 0.3s;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  overflow: hidden;
+}
+.landing .prev:hover {
+  background-color: var(--first-color);
+}
+.landing .prev i.one {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(100%, -50%);
+  transition: all 0.5s;
+}
+.landing .prev:hover i.one {
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.landing .prev i.tow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  opacity: 0.5;
+}
+.landing .prev:hover i.tow {
+  left: 0%;
+  top: 50%;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+}
+/* end landing */
+/* start law */
+.law {
+  background-color: #191919;
+}
+
+.law .all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.law .all:not(.last) {
+  border-right: 1px solid rgb(98, 98, 98);
+}
+.law .all .text-content {
+  padding-left: 10px;
+}
+.law .all .text-content p:first-child {
+  color: var(--white-color);
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+.law .all .text-content p:nth-child(2) {
+  color: var(--first-color);
+  font-family: "Oswald", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+/* end law */
+/* start practice */
+.practice {
+  background-color: var(--second-color);
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.practice .text-cont {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--white-color);
+}
+
+.practice .text-content p:not(.p1) {
+  font-size: 15px;
+  font-weight: 400;
+  color: #d0d0d0;
+}
+.practice .card {
+  background-color: var(--second-color);
+  border-radius: 0;
+  border: none;
+  transition: all 0.5s;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 25%);
+  border: 1px solid transparent;
+  cursor: pointer;
+  position: relative;
+}
+.practice .card:hover {
+  border-color: var(--first-color);
+}
+
+.practice .card .text-content {
+  padding: 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.practice .card .text-content h4 {
+  color: var(--first-color);
+  margin: 20px;
+  transition: all 0.5s;
+}
+.practice .card:hover h4 {
+  color: var(--white-color);
+}
+/*  */
+.practice .card .img-cont {
+  width: 120px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+.practice .card .img-cont img:nth-child(1) {
+  position: relative;
+  opacity: 1;
+  transition: all 0.5s;
+}
+.practice .card:hover .img-cont img:nth-child(1) {
+  position: absolute;
+  opacity: 0;
+}
+.practice .card .img-cont img:nth-child(2) {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.practice .card:hover .img-cont img:nth-child(2) {
+  opacity: 1;
+  position: relative;
+}
+
+/* .practice .row{
+  gap: 30px;
+} */
+/* end practice */
+/* start about */
+.about {
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.about .text-content p:first-child {
+  font-family: "Oswald";
+  text-align: right;
+  color: var(--first-color);
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 15px;
+  line-height: 1.714286;
+}
+.about .text-content p:nth-child(2) {
+  font-family: "Oswald";
+  font-size: 19px;
+  color: #555555;
+  padding-bottom: 15px;
+  line-height: 1.714286;
+  font-weight: 500;
+}
+.about .text-content p {
+  font-size: 15px;
+  color: #999999;
+  padding-bottom: 15px;
+  line-height: 1.714286;
+}
+.about .img-content {
+  background-image: url(../../img/sign1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 80px;
+}
+.about .img-content .text-img p:first-child {
+  font-family: "Oswald";
+  font-size: 16px;
+  text-align: right;
+  font-weight: 500;
+  padding-top: 60px;
+}
+.about .img-content .text-img p:nth-child(2) {
+  font-family: "Oswald";
+  font-size: 16px;
+  font-weight: 500;
+  color: #999999;
+  text-align: right;
+}
+.about .img-cont {
+  width: 414px;
+}
+.about .flexToEnd {
+  display: flex;
+
+  justify-content: flex-end;
+}
+/* end about */
+/* start faq */
+.faq {
+  background-image: url(../../img/parallax1.jpg);
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 50px 0;
+  overflow: hidden;
+}
+.faq .text p {
+  font-family: "alternate-gothic-no2-d";
+  font-size: 25px;
+  font-weight: 400;
+}
+.faq .accordion {
+  --bs-accordion-bg: #ffffff00;
+  --bs-accordion-border-color: none;
+}
+.faq .accordion button {
+  font-size: 25px;
+}
+.faq .accordion-button:focus {
+  box-shadow: none;
+  color: var(--first-color);
+}
+.faq .accordion-button:not(.collapsed) {
+  color: var(--first-color);
+  background-color: transparent;
+}
+.faq .accordion-body {
+  line-height: 1.5;
+  font-family: "Open Sans";
+  color: #7a7a7a;
+  font-size: 15px;
+}
+.faq .row a {
+  display: inline-block;
+  padding: 35px 15px;
+  width: 100%;
+  text-align: center;
+  outline: 1px solid #e5e5e5;
+  border: 2px solid var(--white-color);
+  color: #7a7a7a;
+  font-family: "alternate-gothic-no2-d";
+  font-size: 25px;
+  background-color: var(--white-color);
+  text-decoration: none;
+  margin-bottom: 30px;
+  transition: all 0.3s;
+}
+.faq .row a:hover {
+  background-color: var(--first-color);
+  color: var(--white-color);
+  outline-color: var(--first-color);
+}
+/* end faq */
+/* start team */
+.team {
+  background-color: var(--second-color);
+  padding-top: 50px;
+  overflow: hidden;
+}
+.team .text-cont h2 {
+  color: var(--white-color);
+}
+.team .text-cont p:not(.p1) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #d0d0d0;
+  padding-bottom: 30px;
+}
+.team .row .img-cont {
+  position: relative;
+}
+.team .row .img-cont:hover .text-content {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.team .row .text-content {
+  color: #dbdbdb;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--second-color);
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 8px 40px rgb(0 0 0 / 35%);
+  padding: 0 10px;
+  opacity: 0;
+  overflow: hidden;
+  transform: translate(0px, 0px);
+  transition: all 0.3s;
+}
+.team .row .first {
+  transform: translateX(-50px);
+}
+.team .row .middle {
+  transform: translateY(50px);
+}
+.team .row .last {
+  transform: translateX(50px);
+}
+
+.team .row .text-content h3 {
+  color: var(--white-color);
+  font-size: 40px;
+  padding-top: 10px;
+}
+.team .row .text-content p:nth-child(3) {
+  font-size: 13px;
+  padding-bottom: 0px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.team .row .text-content ul {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  padding: 10px 0;
+}
+.team .row .text-content ul a {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--white-color);
+  color: #dbdbdb;
+  transition: all 0.3s;
+}
+.team .row .text-content ul a:hover {
+  color: var(--first-color);
+  border-color: var(--first-color);
+}
+.team .row .text-content ul a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* end team */
+/* start team2 */
+.team2 {
+  background-color: #f6f4f4;
+  padding: 50px 0;
+}
+.team2 .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.team2 .card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.team2 .card {
+  margin: 0 20px;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 25%);
+  border-radius: 0;
+  background-color: #f3f3f3;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+  width: calc(100% / 2);
+}
+.team2 .card-body {
+  padding: 20px;
+}
+.team2 .carousel-inner {
+  padding: 1em;
+  margin-bottom: 45px;
+  cursor: all-scroll;
+}
+.team2 .carousel-control-prev,
+.team2 .carousel-control-next {
+  background-color: var(--white-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.team2 .img-cont {
+  width: 100px;
+}
+.team2 .all-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.team2 h5 {
+  color: var(--first-color);
+  font-size: 23px;
+}
+
+.team2 .card:hover {
+  border: 1px solid var(--first-color);
+}
+.team2 .card p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.team2 .carousel-control-next {
+  justify-content: flex-end;
+  width: 50px;
+  right: 0px;
+  opacity: 1;
+}
+.team2 .next {
+  position: relative;
+  color: #747474;
+  background-color: var(--white-color);
+  transition: all 0.3s;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 25%);
+}
+.team2 .next:hover {
+  background-color: var(--first-color);
+}
+
+.team2 .next i.one {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  opacity: 0.5;
+}
+.team2 .next:hover i.one {
+  left: 100%;
+  transform: translate(0%, -50%);
+  opacity: 0;
+}
+.team2 .next i.tow {
+  position: absolute;
+  left: -55%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  color: var(--white-color);
+}
+.team2 .next:hover i.tow {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/*  */
+.team2 .carousel-control-prev {
+  justify-content: flex-end;
+  width: 50px;
+  left: 0px;
+  opacity: 1;
+}
+.team2 .prev {
+  position: relative;
+  color: #747474;
+  background-color: var(--white-color);
+  transition: all 0.3s;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 25%);
+}
+.team2 .prev:hover {
+  background-color: var(--first-color);
+}
+.team2 .prev i.one {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(100%, -50%);
+  transition: all 0.5s;
+  color: var(--white-color);
+}
+.team2 .prev:hover i.one {
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.team2 .prev i.tow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  opacity: 0.5;
+}
+.team2 .prev:hover i.tow {
+  left: 0%;
+  top: 50%;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+}
+.team2 .row {
+  display: flex;
+  justify-content: space-around;
+  row-gap: 20px;
+}
+.team2 .row .img-content img:nth-child(1) {
+  position: relative;
+  transition: all 0.5s;
+}
+.team2 .row .img-content {
+  overflow: hidden;
+  position: relative;
+}
+.team2 .row .img-content img:nth-child(2) {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.team2 .row .img-content:hover img:nth-child(2) {
+  position: relative;
+  opacity: 1;
+}
+.team2 .row .img-content:hover img:nth-child(1) {
+  position: absolute;
+  opacity: 0;
+}
+/* end team2 */
+/* start news */
+.news {
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.news .card {
+  border: none;
+  border-radius: 0;
+}
+.news .row{
+  row-gap: 25px;
+}
+.news .card .img-cont {
+  position: relative;
+}
+.news .card .text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: var(--first-color);
+  text-align: center;
+  padding: 5px;
+}
+.news .card .text span {
+  display: inline-block;
+  padding: 5px 20px;
+  border: 1px solid var(--white-color);
+}
+.news .card .text p {
+  color: var(--white-color);
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald";
+}
+.news .card .text p:nth-child(1) {
+  font-size: 29px;
+}
+.news .card .text p:nth-child(2) {
+  font-size: 12px;
+}
+.news .card .text-content h3 {
+  font-family: "Oswald";
+  font-size: 25px;
+  padding-bottom: 10px;
+  line-height: 1.7;
+  padding-top: 20px;
+}
+.news .card .text-content a {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--first-color);
+  transition: all 0.3s;
+}
+.news .card .text-content a:hover {
+  color: var(--black-color);
+}
+.news .card .text-content span {
+  padding-left: 5px;
+  transition: all 0.3s;
+}
+.news .card .text-content a:hover span {
+  padding-left: 10px;
+  color: var(--black-color);
+}
+/* end news */

@@ -1,0 +1,419 @@
+/* max 1330px */
+@media screen and (max-width: 1330px) {
+  header .navbar .dropdown-menu {
+    transform: translateX(-5%);
+    --bs-dropdown-min-width: 100px;
+  }
+}
+
+/* max 1200px */
+@media screen and (max-width: 1200px) {
+}
+/* max 992px */
+@media screen and (max-width: 992px) {
+  header .navbar .nav-link {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  header .navbar .nav-link::before {
+    display: none;
+  }
+  .navbar-nav .dropdown-menu {
+    border-radius: 0;
+    background-color: var(--black-color);
+    border: none;
+    padding: 0;
+  }
+  .navbar-nav .dropdown-menu li:not(:last-child) {
+    border-bottom: none;
+  }
+  header .navbar .dropdown-menu {
+    transform: translateX(0);
+    --bs-dropdown-min-width: 100px;
+  }
+  .landing .parent .text-content h1 {
+    font-size: 85px;
+  }
+  .landing .parent .text-content p {
+    font-size: 17px;
+  }
+  .law .all:not(.last) {
+    border: none;
+  }
+  .law .all {
+    padding: 40px 0;
+  }
+  .practice .text-cont {
+    width: 100%;
+  }
+  .about .flexToEnd {
+    justify-content: center;
+  }
+  .team2 .row .img-content {
+    width: 150px;
+    margin: auto;
+  }
+  .contact .contact-box-inner .img-content {
+    width: 280px;
+  }
+  .attorneys .vis {
+    display: none;
+  }
+  .attorneys .hid {
+    display: block;
+  }
+  .blog .list .all a .img-cont {
+    width: 68%;
+  }
+  .blog .list .all a {
+    row-gap: 10px;
+    flex-wrap: wrap;
+  }
+  .blog .youtube-vid iframe {
+    height: 290px;
+  }
+}
+/* max 768px */
+@media screen and (max-width: 768px) {
+  .up .right ul li:first-child {
+    display: none;
+  }
+  .landing .parent .text-content h1 {
+    font-size: 75px;
+  }
+  .landing .parent .text-content .img-cont {
+    width: 170px;
+  }
+  .landing .parent .text-content p {
+    font-size: 16px;
+    margin: 15px 0;
+    font-weight: 600;
+  }
+  .landing .img1,
+  .landing .img2 {
+    height: 550px;
+  }
+  .law .all {
+    padding: 30px 0;
+  }
+  .practice .card .text-content {
+    margin-bottom: 30px;
+  }
+  .practice .card .img-cont {
+    margin-top: 30px;
+  }
+  .team .text-cont {
+    margin-bottom: 0;
+  }
+  .team .text-cont p:not(.p1) {
+    margin: 0;
+    padding-bottom: 0px;
+  }
+  .team2 .card:not(:first-child) {
+    display: none;
+  }
+  .team2 .card {
+    width: 100%;
+  }
+  .contact .contact-box-inner .img-content {
+    left: 43%;
+  }
+  .blog .row {
+    row-gap: 50px;
+  }
+  .blog .list .first li a::after {
+    width: 100%;
+  }
+  .blog .list .all a .img-cont {
+    width: 100px;
+  }
+  .blog .list .all a {
+    column-gap: 15px;
+  }
+  .blog div.text2 {
+    flex-wrap: wrap;
+  }
+  .blog .text2 .img-cont {
+    width: 100%;
+  }
+  .blog .text2 .text-cont {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .blog .form .parent {
+    flex-wrap: wrap;
+  }
+  .blog .form form .inp {
+    width: 100%;
+  }
+}
+/* max 678px */
+@media screen and (max-width: 678px) {
+  .landing .parent .text-content h1 {
+    font-size: 70px;
+  }
+  .landing .parent .text-content .img-cont {
+    width: 160px;
+    margin-top: 30px;
+  }
+  .landing .parent .text-content .btn span {
+    padding: 9px 15px;
+  }
+  .landing .carousel-control-next,
+  .landing .carousel-control-prev {
+    top: 50%;
+    height: 50px;
+    transform: translateY(-50%);
+    z-index: 55;
+  }
+}
+/* max 576px */
+@media screen and (max-width: 576px) {
+  .up .right ul {
+    gap: 10px;
+  }
+  .up .right ul li .btn {
+    padding: 5px 10px;
+  }
+  .landing .parent .text-content p {
+    font-size: 15px;
+    margin: 12px 0;
+    font-weight: 500;
+  }
+  .landing .parent .text-content p:first-child {
+    margin-top: 40px;
+  }
+  .landing .parent .text-content p:nth-child(3) {
+    padding: 0 50px;
+  }
+  .landing .parent .text-content .img-cont {
+    width: 150px;
+    margin-top: 20px;
+  }
+  .landing .parent .text-content .btn span {
+    padding: 7px 13px;
+  }
+  .landing .parent .text-content h1 {
+    font-size: 65px;
+  }
+  .law .all,
+  .law {
+    padding: 10px 0;
+  }
+  .law .all .text-content p:first-child {
+    font-size: 25px;
+  }
+  .law .all .text-content p:nth-child(2) {
+    font-size: 12px;
+  }
+  .h-2 {
+    font-size: 45px;
+  }
+  .about .text-content p:first-child {
+    font-size: 23px;
+    padding-bottom: 0px;
+  }
+  .faq .row a {
+    padding: 20px 15px;
+    margin-bottom: 20px;
+  }
+  .team .row .img-cont {
+    width: 350px;
+    margin: auto;
+  }
+  .news .card .text-content h3 {
+    font-size: 22px;
+  }
+  .contact .contact-box-inner .img-content {
+    width: 220px;
+    bottom: -109px;
+  }
+  .blog .text .btns .btn1 a {
+    padding: 10px 25px;
+  }
+  .blog .youtube-vid iframe {
+    height: 203px;
+  }
+  .blog .icons {
+    display: block;
+  }
+  .blog .icons .child {
+    color: #ababab;
+    padding-bottom: 15px;
+  }
+}
+/* max 500px */
+@media screen and (max-width: 500px) {
+  .up .right ul li:nth-child(2) {
+    display: none;
+  }
+  .landing .parent .text-content h1 .one {
+    display: block;
+  }
+  .landing .parent .text-content p:first-child {
+    margin-top: 20px;
+  }
+  .landing .parent .text-content .img-cont {
+    width: 100px;
+    margin-top: 20px;
+  }
+  .landing .carousel-control-next,
+  .landing .carousel-control-prev {
+    height: 40px;
+    transform: translateY(-50%);
+    z-index: 55;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .landing .next,
+  .landing .prev {
+    font-size: 20px;
+    height: 40px;
+  }
+  .practice {
+    padding-bottom: 50px;
+  }
+  .practice .card .text-content p {
+    padding: 0 10px;
+  }
+  .contact .contact-box-inner {
+    padding: 20px 15px 70px;
+  }
+  .contact .contact-box {
+    padding: 7px;
+  }
+  .attorneys .card .text-hover p:nth-child(3) {
+    line-height: 1.2;
+    font-size: 12px;
+    display: inline-block;
+    height: 200px;
+    overflow: hidden;
+  }
+  .attorneys .card .text-hover {
+    padding: 20px 20px;
+  }
+  .blog .text3 {
+    display: block;
+  }
+  .blog .text3 .img-borderr {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  .blog .prev-next .centr {
+    display: none;
+  }
+  .blog .prev-next {
+    background: #fcfaf5;
+    padding: 20px 20px;
+    margin-bottom: 35px;
+    display: block;
+  }
+  .blog .prev-next a {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+  }
+  .blog .prev-next a:first-child {
+    padding-bottom: 20px;
+  }
+  .blog .comments .comment {
+    display: block;
+    margin: 30px 0;
+  }
+  .blog .comments .comment .img-cont {
+    margin-bottom: 5px;
+  }
+  .blog .comments .comment .text-content p {
+    margin: 10px 0;
+  }
+  .blog .comments .comment:nth-child(3) {
+    margin-left: 25px;
+    border-left: 4px solid #c29032;
+  }
+}
+/* max 400px */
+@media screen and (max-width: 400px) {
+  .up .icon ul li:last-child,
+  .up .icon ul li:nth-child(9),
+  .up .icon ul li:nth-child(8),
+  .up .icon ul li:nth-child(7) {
+    display: none;
+  }
+  .landing .parent .text-content p:first-child {
+    margin-top: 80px;
+    font-size: 16px;
+  }
+  .landing .parent .text-content h1 {
+    font-size: 40px;
+  }
+  .landing .parent .text-content .img-cont {
+    display: none;
+  }
+  .landing .parent .text-content .btn span {
+    font-size: 14px;
+  }
+  .landing .parent .text-content .btn {
+    margin-top: 10px;
+  }
+  .practice .card .text-content {
+    margin-bottom: 0px;
+  }
+  .practice .card .text-content p {
+    margin-bottom: 20px;
+  }
+  .team .row .img-cont {
+    width: 280px;
+    margin: auto;
+  }
+  .contact .content .right ul li span {
+    margin-right: 10px;
+  }
+  .attorneys .container ul {
+    gap: 10px;
+    margin-top: 0px;
+  }
+  .attorneys .card .text-hover h3 {
+    font-size: 30px;
+  }
+  .blog .text h2 {
+    font-size: 25px;
+
+    padding: 15px 0;
+  }
+  .blog .text .icon-content .icon:not(:last-child) {
+    margin-right: 20px;
+  }
+  .blog .text .icon-content .icon a {
+    font-size: 13px;
+  }
+  .blog .text .icon-content .icon span i {
+    font-size: 13px;
+  }
+  .blog .paginations ul .page-item {
+    margin-right: 1px;
+  }
+  .blog .paginations ul li .page-link {
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 15px;
+  }
+  .blog .paginations ul .active a {
+    line-height: 27px;
+  }
+  .blog .text .p2 {
+    font-size: 15px;
+    color: #3c3c3c;
+    border-left: 3px solid #c29032;
+    margin-left: 40px;
+    padding: 10px 15px;
+  }
+  .blog .comments .comment:nth-child(3) {
+    margin-left: 15px;
+  }
+  .scroll a {
+    width: 38px;
+    height: 38px;
+  }
+}

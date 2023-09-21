@@ -1,0 +1,183 @@
+/* start footer */
+footer {
+  background-color: var(--second-color);
+  overflow: hidden;
+  color: #d0d0d0;
+  padding-top: 40px;
+  
+}
+footer li, li a, li p{
+  font-family: "Oswald";
+
+}
+footer .container {
+  background-color: var(--second-color);
+}
+footer .container .text-content h5 {
+  color: var(--white-color);
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  z-index: 13;
+}
+footer .container .text-content h5::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: var(--first-color);
+}
+footer .container .text-content .first i{
+  color: var(--first-color);
+}
+footer .container .text-content .first span{
+  display: inline-block;
+  padding-right: 10px;
+}
+footer .container .text-content .first li{
+  font-size: 13px;
+
+  padding: 10px 0;
+}
+footer .container .text-content .second a{
+  color: #d0d0d0;
+  font-size: 13px;
+  display: inline-block;
+  width: 100%;
+  text-decoration: underline transparent;
+  transition: all 0.3s;
+}
+footer .container .text-content .second a:hover{
+  text-decoration: underline #d0d0d0;
+}
+footer .container .text-content .second li{
+  padding: 5px 0;
+}
+footer .container .text-content .third{
+  color: #d0d0d0;
+}
+footer .container .text-content .third li p{
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-bottom: 5px;
+}
+footer .container .text-content .third li{
+  padding: 5px 0;
+}
+footer .container .text-content .third li a{
+  color: var(--first-color);
+  font-size: 13px;
+}
+footer .container .text-content .third li{
+  display: flex;
+}
+footer .container .text-content .third i{
+  color: var(--first-color);
+  padding-right: 10px;
+}
+footer .container .last p{
+  font-size: 13px;
+  font-family: "Oswald";
+}
+footer .container .last .email input{
+  font-size: 15px;
+  font-family: "Oswald";
+  padding: 4px 0px 4px 3px;
+  outline: none;
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid #b4b4b4;
+  color: var(--white-color);
+
+}
+footer .container .last .email {
+  position: relative;  
+  display: inline-block;
+}
+footer .container .last .email div.btn{
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  display: inline-block;
+  padding: 2px;
+  color: var(--white-color);
+  background-color: var(--first-color);
+  font-size: 13px;
+  width: 30px;
+  border-radius: 0;
+  transition: all 0.3s;
+}
+footer .container .last .email div.btn:hover{
+  background-color: transparent;
+}
+footer .container .last .email{
+  position: relative;
+}
+footer .container .last .email i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer .container .last .fourth {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+footer .container .last .fourth li a{
+  display: inline-block;
+  position: relative;
+  width: 37px;
+  height: 37px;
+  color: #b4b4b4;
+  border: 1px solid #646d7a;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+footer .container .last .fourth li a:hover{
+  color: var(--first-color);
+  border-color: var(--first-color);
+}
+footer .container .last .fourth li a i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
+footer .img-cont{
+  align-items: center;
+  margin: 30px auto;
+  width: 100px;
+}
+footer .footer-end{
+
+  background-color: var(--third-color);
+  border-top: 1px solid #c2903281;
+
+}
+footer .footer-end .text{
+    padding: 30px 0;
+    margin: 0;
+      overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+}
+footer .footer-end .text p{
+  margin: 0;
+}
+footer .footer-end .text a{
+  color: var(--first-color);
+  transition: all 0.2s;
+}
+footer .footer-end .text a:hover{
+  color: var(--white-color);
+}
+/* end footer */

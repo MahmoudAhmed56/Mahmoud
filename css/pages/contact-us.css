@@ -1,0 +1,103 @@
+/* start contact */
+.contact {
+  padding: 50px 0;
+}
+.contact .content h3 {
+  font-size: 35px;
+  padding-bottom: 10px;
+  margin: 20px 0;
+}
+.contact .content .upper {
+  position: relative;
+}
+.contact .content .upper::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background-color: var(--first-color);
+}
+.lower ul li {
+  font-family: "Oswald";
+}
+.lower form {
+  font-family: "Open Sans";
+}
+.contact .contact-box {
+  padding: 15px;
+  background-image: url(../../img/contact-box.jpg);
+  box-shadow: 0 8px 10px 0px rgb(0 0 0 / 10%);
+}
+.contact .contact-box-inner {
+  border: 1px solid var(--first-color);
+  padding: 20px 40px 70px;
+  position: relative;
+}
+.contact .contact-box-inner .img-content {
+  position: absolute;
+  bottom: -140px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 12;
+}
+/* left */
+.contact .content .left {
+  display: flex;
+}
+.contact .content .left form {
+  width: 100%;
+}
+.contact .content .left textarea,
+.left input:not(:last-child) {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid;
+  border: 1px solid #cccccc;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--black-color);
+}
+.left input:placeholder-shown {
+  font-style: italic;
+  color: #3e3e3e;
+}
+.left textarea:placeholder-shown {
+  font-style: italic;
+  color: #3e3e3e;
+}
+.contact .content .left .btn {
+  padding: 10px 40px;
+  border: 3px solid var(--white-color);
+  outline: 1px solid var(--first-color);
+  border-radius: 0;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  transition: 0ms;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.contact .content .left .btn:hover {
+  background-color: var(--first-color);
+}
+/* right */
+.contact .content .right ul li {
+  margin: 15px 0;
+}
+.contact .content .right ul li span {
+  display: inline-block;
+  margin-right: 15px;
+  font-family: "Oswald";
+}
+.contact .content .right ul li .no-m {
+  margin: 0;
+}
+.contact .content .right p {
+  font-size: 15px;
+}
+/* end contact */

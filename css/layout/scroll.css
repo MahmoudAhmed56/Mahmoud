@@ -1,0 +1,51 @@
+.scroll a{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 43px;
+  height: 43px;
+  background-color: var(--second-color);
+  z-index: 999;
+  border: 1px solid var(--first-color);
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.scroll a .one{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.scroll a .tow{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: var(--first-color);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.scroll a i{
+  font-size: 16px;
+}
+.scroll a:hover{
+  border-radius: 50%;
+  box-shadow: 0px 2px 8px var(--first-color);
+}
+.scroll a:hover .one{
+  top: 0%;
+  transform: translate(-50%, -65%);
+  color: var(--white-color);
+  opacity: 0;
+}
+.scroll a:hover .tow{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--first-color);
+  opacity: 1;
+}

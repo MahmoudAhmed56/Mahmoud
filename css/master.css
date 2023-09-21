@@ -1,0 +1,72 @@
+@import url(./base/base.css);
+@import url(./base/static.css);
+/* base */
+/* component */
+@import url(./component/text.css);
+@import url(./component/title.css);
+/* layout */
+@import url(./layout/header.css);
+@import url(./layout/footer.css);
+@import url(./layout/scroll.css);
+/* pages */
+@import url(./pages/landing.css);
+@import url(./pages/about-us.css);
+@import url(./pages/contact-us.css);
+@import url(./pages/blog.css);
+/* responsive */
+@import url(./responsive/responsive.css);
+/* vendor */
+@import url(./vendor/bootstrap-5.3.0-dist/css/bootstrap.min.css);
+@import url(./vendor/fontawesome-free-6.4.2-web/css/all.min.css);
+@import url(./vendor/fontawesome-free-6.4.2-web/css/fontawesome.min.css);
+@import url(./vendor/animate.css);
+:root {
+  --first-color: #c29032;
+  --second-color: #262626;
+  --third-color: #212121;
+  --fourth-color: #7a7a7a;
+  --black-color: #000;
+  --white-color: #fff;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  width: 100%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "alternate-gothic-no2-d";
+}
+::selection {
+  background-color: var(--first-color);
+  color: var(--white-color);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

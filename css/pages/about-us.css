@@ -1,0 +1,230 @@
+/* start about */
+.about .about-left {
+  margin-bottom: 40px;
+}
+/* end about */
+/* start attorneys */
+.attorneys {
+  background-color: var(--second-color);
+  padding: 50px 0 30px;
+}
+.attorneys .text-cont h2 {
+  color: var(--white-color);
+}
+.attorneys .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.attorneys .card {
+  margin: 0 40px;
+  border: none;
+  border-radius: 0;
+  text-align: center;
+}
+.attorneys .card .p1 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.attorneys .card-body {
+  padding: 20px;
+  background-color: var(--second-color);
+}
+.attorneys .carousel-inner {
+  padding: 1em;
+  margin-bottom: 45px;
+  cursor: all-scroll;
+}
+.attorneys .carousel-control-prev,
+.attorneys .carousel-control-next {
+  background-color: var(--white-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.attorneys .img-cont{
+  width: 100%;
+}
+.attorneys .all-img{
+  display: flex;
+  justify-content: center;
+}
+.attorneys h5{
+  color: var(--white-color);
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.attorneys .card{
+  transition: all 0.3s;
+  width: 50%;
+}
+.attorneys .card .text-hover{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 60px 20px 10px;
+  background-color: black;
+  border: 1px solid var(--first-color);
+  opacity: 1;
+  z-index: 33;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+.attorneys .card:hover .text-hover{
+  transform: scale(1);
+}
+.attorneys .card .text-hover h3{
+  font-size: 35px;
+  font-weight: 500;
+  color: var(--white-color);
+}
+.attorneys .card .text-hover p:nth-child(3){
+  font-size: 15px;
+  color: #e5e5e5;
+  font-weight: 300;
+  line-height: 2;
+}
+.attorneys .carousel-control-next {
+  justify-content: flex-end;
+  width: 50px;
+  right: 0px;
+  opacity: 1;
+}
+.attorneys .next {
+  position: relative;
+  color: #747474;
+  background-color: var(--white-color);
+  transition: all 0.3s;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 25%);
+}
+.attorneys .next:hover {
+  background-color: var(--first-color);
+}
+.attorneys .next i.one {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  opacity: 0.5;
+}
+.attorneys .next:hover i.one {
+  left: 100%;
+  transform: translate(0%, -50%);
+  opacity: 0;
+}
+.attorneys .next i.tow {
+  position: absolute;
+  left: -55%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  color: var(--white-color);
+}
+.attorneys .next:hover i.tow {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/*  */
+.attorneys .carousel-control-prev {
+  justify-content: flex-end;
+  width: 50px;
+  left: 0px;
+  opacity: 1;
+}
+.attorneys .prev {
+  position: relative;
+  color: #747474;
+  background-color: var(--white-color);
+  transition: all 0.3s;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 25%);
+}
+.attorneys .prev:hover {
+  background-color: var(--first-color);
+}
+.attorneys .prev i.one {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(100%, -50%);
+  transition: all 0.5s;
+  color: var(--white-color);
+}
+.attorneys .prev:hover i.one {
+  right: 50%;
+  transform: translate(50%, -50%);
+
+}
+.attorneys .prev i.tow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  opacity: 0.5;
+
+}
+.attorneys .prev:hover i.tow {
+  left: 0%;
+  top: 50%;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+}
+/* icon */
+.attorneys .container ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.attorneys .container  li a{
+  display: inline-block;
+  position: relative;
+  width: 37px;
+  height: 37px;
+  color: #b4b4b4;
+  border: 1px solid #646d7a;
+  border-radius: 50%;
+  transition: all 0.3s;
+  cursor: pointer;
+  z-index: 22;
+}
+.attorneys .container li a:hover{
+  color: var(--first-color);
+  border-color: var(--first-color);
+}
+.attorneys .container  li a i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
+.attorneys .hid{
+  display: none;
+}
+.attorneys .hid .card{
+  width: 80%;
+  overflow: hidden;
+}
+/* icon */
+/* end attorneys */
+.about .pen{
+  width: 80%;
+  margin-bottom: 30px;
+}
+.about .cont2{
+  padding: 0;
+}
