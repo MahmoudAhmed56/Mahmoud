@@ -2,8 +2,15 @@
 header {
   background-color: var(--black-color);
   z-index: 1000;
-  position: sticky !important;
   top: 0;
+}
+.headerShow{
+  background-color: var(--black-color);
+  z-index: 1000;
+  position: sticky !important;
+  top: -50px;
+  transform: translateY(50px);
+  transition: transform 1s;
 }
 header .navbar {
   border-top: 0.6px solid #c290326b;
