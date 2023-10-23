@@ -1,6 +1,12 @@
+.scroll {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s;
+}
 .scroll a{
   position: fixed;
   right: 10px;
+
   bottom: 10px;
   width: 43px;
   height: 43px;
@@ -9,6 +15,10 @@
   border: 1px solid var(--first-color);
   overflow: hidden;
   transition: all 0.3s;
+}
+.showScroll {
+  opacity: 1;
+  visibility: visible;
 }
 .scroll a .one{
   position: absolute;
